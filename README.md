@@ -60,7 +60,7 @@ The 3040Crypto Wallet API is designed to provide a comprehensive suite of servic
 ## Sample Request with Sample Response
 
 ### Create New Wallet
-**Request:** POST `/api/wallet/create` with body `{"user_id": "12345", "email": "user@example.com"}`
+**Request:** POST `/api/wallet/create` with body `{"user_id": "12345", "email": "sample@example.com"}`
 
 **Response:**
 
@@ -79,8 +79,8 @@ The 3040Crypto Wallet API is designed to provide a comprehensive suite of servic
 ```json
 {
   "wallet_id": "abcde12345",
-  "currency": "BTC",
-  "balance": 1.5
+  "currency": "ETH",
+  "balance": 1.8
 }
 ```
 
