@@ -93,17 +93,17 @@ The 3040Crypto Wallet API is designed to provide a comprehensive suite of servic
 {
   "transactions": [
     {
-      "transaction_id": "tx123",
-      "amount": 0.5,
-      "currency": "BTC",
-      "timestamp": "2024-01-15T10:00:00Z",
+      "transaction_id": "t1",
+      "amount": 1202.0,
+      "currency": "ETH",
+      "timestamp": "2024-03=19T9:00:00Z",
       "status": "completed"
     },
     {
-      "transaction_id": "tx124",
+      "transaction_id": "t2",
       "amount": 1.0,
-      "currency": "BTC",
-      "timestamp": "2024-02-20T15:30:00Z",
+      "currency": "USDT",
+      "timestamp": "2024-03=20-20T16:30:00Z",
       "status": "completed"
     }
   ]
