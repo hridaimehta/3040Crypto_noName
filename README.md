@@ -10,25 +10,25 @@ The 3040Crypto Wallet API is designed to provide a comprehensive suite of servic
 - **Endpoint:** `/api/wallet/create`
 - **Method:** POST
 - **Parameters:**
-  - `user_id` (required): The unique identifier for the user.
-  - `email` (optional): The user's email address for notifications and recovery purposes.
+  - `user_id`: The unique identifier for the user.
+  - `email`: The user's email address for notifications and recovery purposes.
 - **Description:** Allows users to create a new cryptocurrency wallet, which returns a unique wallet ID for subsequent transactions and queries.
 
 ### 2. Get Wallet Balance
 - **Endpoint:** `/api/wallet/balance`
 - **Method:** GET
 - **Parameters:**
-  - `wallet_id` (required): The unique identifier of the user's wallet.
-  - `currency` (optional): The specific cryptocurrency to check the balance for. Defaults to Bitcoin (BTC) if not specified.
+  - `wallet_id` : The unique identifier of the user's wallet.
+  - `currency`: The specific cryptocurrency to check the balance for. Defaults to Bitcoin (BTC) if not specified.
 - **Description:** Retrieves the current balance of the specified cryptocurrency in the user's wallet, allowing for real-time financial management.
 
 ### 3. Transaction History
 - **Endpoint:** `/api/wallet/transactions/history`
 - **Method:** GET
 - **Parameters:**
-  - `wallet_id` (required): The unique identifier of the user's wallet.
-  - `start_date` (optional): The beginning date for the transaction history query.
-  - `end_date` (optional): The ending date for the transaction history query.
+  - `wallet_id`: The unique identifier of the user's wallet.
+  - `start_date`: The beginning date for the transaction history query.
+  - `end_date`: The ending date for the transaction history query.
 - **Description:** Provides a detailed history of all transactions associated with the user's wallet, including amounts, dates, and transaction statuses, facilitating transparent record-keeping and financial tracking.
 
 ## Description of Resources
